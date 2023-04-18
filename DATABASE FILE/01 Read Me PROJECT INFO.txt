@@ -1,0 +1,40 @@
+**For more project reach out Github- https://github.com/narendrasingh7 
+or LinkedIn - https://www.linkedin.com/in/narendrasingh7/***
+
+**Database Name: banksysphp**
+
+**Developed by Narendra Singh**
+
+**Recommended PHP Version 5.6.3, 7.4.12**
+
+Installation 
+Process-
+Install XAMPP on your device.
+
+Download this project, rename the main folder from BasicBankingSystem to TSBbyNarendra Now place the TSBbyNarendra folder in your XAMPP-->htdocs folder
+Example:  C:\xampp\htdocs\TSBbyNarendra
+
+Open XAMPP by searching in the windows search and start the Apache & MySQL modules.
+
+Open the phpMyAdmin by entering http://localhost/phpmyadmin/ on the browser.
+
+Search for import and click then choose database banksysphp.sql file from XAMPP-->htdocs-->TSBbyNarendra-->DATABASE FILE
+
+Example: C:\xampp\htdocs\TSBbyNarendra\DATABASE FILE scroll down and press import.
+
+How_To_Run
+
+After successfully importing database in the above step, open a new browser window and type the following: http://localhost/TSBbyNarendra/
+You will be taken to the Home page of the website from there you can visit Home & Customers through the Navigation Bar.
+
+Else you can scroll down to check the customers or transaction history.
+
+On the View All Customer page you can see all the bank's existing customers from the database we imported before.
+
+By Proceed Here you can Choose the sender of the money below and proceed.
+
+On the Transaction page you can select whom to transfer the money on Receiver tab and the amount to be transferred on Amount tab.
+
+Click Transfer Money to transfer the money or Cancel Transaction to cancel the transaction
+
+On the Home page you can visit the Transaction History to view past transactions.

@@ -1,0 +1,66 @@
+.homecontent{
+    display: flex;
+    justify-content: space-around;
+}
+.welcommsg{
+    padding-left: 10%;
+
+}
+.homecontent .welcommsg H1{
+    color: #ff4d05;
+    padding-top: 120px;
+    size: 1vh;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+    
+
+}
+.homecontent .welcommsg H2{
+    color: darkcyan;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.homecontent .welcommsg p{
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.homecontent img{
+    height: auto;
+}
+
+button:hover,
+.homecontent h1:hover{
+    transform: scale(1.1);
+}
+
+h2:hover{
+    transform: scale(1.1);
+}
+
+.homecontent .welcommsg p:hover{
+    transform: scale(1.1);
+}
+.contactus h1{
+text-decoration: none;
+text-transform: none;
+cursor: pointer;
+
+}
+footer{
+    background-color:darkcyan;
+    
+}
+footer p{
+    color: black;
+    
+}
+footer p b{
+   text-decoration: none;
+    
+}
+
+

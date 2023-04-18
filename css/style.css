@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.contactus h1{
+  transform: none;
+  align-items: center;
+  -webkit-padding-start: 500px;
+
+}
+button {
+  border: none;
+  padding: 10px;
+  background: #7b8788;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+button:hover,
+
+button:hover {
+  background-color: #ff4d05;
+}
+
+@media only screen and (orientation: portrait) {
+  .intro {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .act {
+    padding-bottom: 100px;
+  }
+}
+
